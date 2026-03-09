@@ -84,9 +84,9 @@ etcd (2379)
 
 3 instances deployed:
 
-Control Node
-Worker Node 1
-Worker Node 2
+* Control Node
+* Worker Node 1
+* Worker Node 2
 
 These will later support a Kubernetes cluster.
 
