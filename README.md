@@ -18,7 +18,7 @@ The primary goal of this project is to showcase practical skills in:
 
 This project simulates a small-scale infrastructure environment that could later be used for workloads such as container orchestration platforms, development environments, or distributed systems.
 
-###  ****Architecture Overview****
+###  **Architecture Overview**
 
 The infrastructure deployed in this project consists of the following components:
 
@@ -38,4 +38,55 @@ The infrastructure deployed in this project consists of the following components
 
 These resources work together to create a network environment where compute instances can securely communicate internally while still allowing controlled access to the internet.
 
-Architecture Diagram
+###  **Architecture Diagram**
+
+<img width="1682" height="782" alt="Unt drawio (2)" src="https://github.com/user-attachments/assets/b48ef6f0-0ed0-46b3-9942-ff88424e265b" />
+
+###  **Technologies Used**
+
+* Terraform
+
+* AWS EC2
+
+* AWS VPC
+
+* AWS Networking
+
+* Infrastructure as Code
+  
+* Linux
+
+###  Infrastructure Components 
+
+VPC CIDR: 10.0.0.0/16
+
+Provides isolated network environment.
+
+###   Public Subnet 
+
+CIDR: 10.0.2.0/24
+
+Allows EC2 instances to communicate with the internet.
+
+###   Security Group 
+
+Allows inbound traffic:
+
+SSH (22)
+
+HTTP (80)
+
+###   Kubernetes API (6443) 
+
+etcd (2379)
+
+###  EC2 Instances 
+
+3 instances deployed:
+
+Control Node
+Worker Node 1
+Worker Node 2
+
+These will later support a Kubernetes cluster.
+
