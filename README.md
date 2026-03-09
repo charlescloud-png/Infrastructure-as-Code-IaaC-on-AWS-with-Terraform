@@ -1,5 +1,7 @@
 # Infrastructure-as-Code-IaaC-on-AWS-with-Terraform
 
+### Video Walkthrough - https://www.loom.com/share/ac5d2e3c2ba6429d8b3569d731d84c19 
+
 ### ****Project Overview****
 
 This project demonstrates how to deploy a fully functional cloud infrastructure environment on Amazon Web Services (AWS) using Infrastructure as Code (IaC) with Terraform. Instead of manually configuring resources through the AWS console, this project automates the entire infrastructure deployment process. The infrastructure includes a custom Virtual Private Cloud (VPC), networking components, security configuration, and multiple EC2 instances.
